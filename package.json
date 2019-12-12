@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./start/www.js"
+    "start": "parcel /start/www.js --open",
+    "build": "parcel build /start/www.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
