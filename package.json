@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "parcel /start/www.js --open",
+    "start": "parcel /start/www.js --8080",
     "build": "parcel build /start/www.js"
   },
   "dependencies": {
