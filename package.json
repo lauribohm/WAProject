@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "parcel www.js --8080",
-    "build": "parcel build www.js"
+    "start": "parcel app.js --8080",
+    "build": "parcel build app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
