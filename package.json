@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/parcel-bundler/bin/cli.js start/www.js --8080",
-    "build": "parcel build start/www.js"
+    "start": "nodemon ./start/www.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
