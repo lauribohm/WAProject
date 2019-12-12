@@ -1,2 +1,0 @@
-# WAProject
-Created with CodeSandbox
