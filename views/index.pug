@@ -8,9 +8,6 @@ html
     style
       include ../start/style_index.css
 
-    img(src="city.jpg", alt="kaupunki")
-    //- div(style='background-image: url({#require(/public/city.jpeg)})')
-
   h1= title
 <div id="grad1"></div>
 
@@ -25,7 +22,7 @@ html
             input#name.form-control(type='text', placeholder='Your name' name='user')
         div.form-group
             label(for='password') Password:
-            input#password.form-control(type='text', placeholder='Your password' name='userpassword')
+            input#password.form-control(type='password', placeholder='Your password' name='userpassword')
         button.btn.btn-primary(type='submit') Log in
 
         h3 Sign Up
